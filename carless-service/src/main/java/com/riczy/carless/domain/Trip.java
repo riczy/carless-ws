@@ -121,6 +121,13 @@ public class Trip implements Serializable, JsonSerializable {
         this.fuelPrice = fuelPrice;
     }
 
+    /**
+     * <p>
+     * The date to which the fuel price corresponds.
+     * </p>
+     *
+     * @return  The date to which the fuel price corresponds.
+     */
     public Date getFuelPriceDate() {
         return fuelPriceDate;
     }
@@ -129,6 +136,13 @@ public class Trip implements Serializable, JsonSerializable {
         this.fuelPriceDate = fuelPriceDate;
     }
 
+    /**
+     * <p>
+     * The EPA series id from where the fuel price was obtained.
+     * </p>
+     *
+     * @return  A EPA series id from where the fuel price was obtained.
+     */
     public String getFuelPriceSeriesId() {
         return fuelPriceSeriesId;
     }
@@ -137,6 +151,13 @@ public class Trip implements Serializable, JsonSerializable {
         this.fuelPriceSeriesId = fuelPriceSeriesId;
     }
 
+    /**
+     * <p>
+     * The code that indicates how this trip was entered.
+     * </p>
+     *
+     * @return
+     */
     public String getLogTypeCode() {
         return logTypeCode;
     }
